@@ -10,7 +10,7 @@ Colony
   - contact Jess Chernak (jchernak@andrew)
 - Low Level: Saturdays 3:30pm in Roboclub
   - contact Tom Mullins (tmullins@andrew)
-- High Level: Mondays 8:30pm in Roboclub
+- High Level: Mondays 8:30pm in WEH 5316
   - contact Hui Jun (htay@andrew)
 
 
