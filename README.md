@@ -7,11 +7,11 @@ Colony
 - Mechanical: Saturdays 1pm in Roboclub
   - contact Jason Dynes (jdynes@andrew.cmu.edu)
 - Electrical: Saturdays 1pm in Roboclub
-  - contact Jess Chernak (jchernak@andrew)
+  - contact Jess Chernak (jchernak@andrew.cmu.edu)
 - Low Level: Saturdays 3:30pm in Roboclub
-  - contact Tom Mullins (tmullins@andrew)
+  - contact Tom Mullins (tmullins@andrew.cmu.edu)
 - High Level: Mondays 8:30pm in Roboclub
-  - contact Tim Brown (twbrown@andrew)
+  - contact Tim Brown (twbrown@andrew.cmu.edu)
 
 
 Contact: [aperley@andrew.cmu.edu](mailto:aperley@andrew.cmu.edu), [jchernak@andrew.cmu.edu](mailto:jchernak@andrew.cmu.edu)
