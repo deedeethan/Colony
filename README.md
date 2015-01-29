@@ -10,7 +10,7 @@ Colony
   - contact Jess Chernak (jchernak@andrew.cmu.edu)
 - Low Level: Saturdays 3:30pm in Roboclub
   - contact Tom Mullins (tmullins@andrew.cmu.edu)
-- High Level: Mondays 8:30pm in Roboclub
+- High Level: Thursdays after GBM (6:00pm) in WEH 5312
   - contact Tim Brown (twbrown@andrew.cmu.edu)
 
 
