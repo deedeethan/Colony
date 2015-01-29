@@ -5,7 +5,7 @@ Colony
 
 **General Body Meeting: Thursdays at 5:30pm in WEH 5312**
 - Mechanical: Saturdays 1pm in Roboclub
-  - contact Alex Kent (aakent@andrew)
+  - contact Jason Dynes (jdynes@andrew.cmu.edu)
 - Electrical: Saturdays 1pm in Roboclub
   - contact Jess Chernak (jchernak@andrew)
 - Low Level: Saturdays 3:30pm in Roboclub
