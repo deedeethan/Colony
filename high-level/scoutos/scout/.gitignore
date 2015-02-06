@@ -1,0 +1,49 @@
+########################################
+##### Colony Scout gitignore files #####
+##### Author: Yuyang Guo ###############
+########################################
+
+##### ros generated files #####
+*/bin
+*/build
+*/msg_gen
+*/srv_gen
+*/docs
+
+##### custom auto generated files #####
+libscout/src/BehaviorList.h
+libscout/src/BehaviorList.cpp
+scoutsim/behaviorList.txt
+
+#### ros include files ####
+messages/src
+buttons/src/buttons
+encoders/src/encoders
+linesensor/src/linesensor
+libscout/src/libscout
+power/src/power
+scoutsim/src/scoutsim
+motors/src/motors
+cliffsensor/src/cliffsensor
+
+#### Not sure where they are coming but apparently we don't need them ####
+analog
+headlights
+sonar
+usb_serial
+
+##### Cmake generated files ######
+
+*CMakeFiles
+*CMakeCache.txt
+*Makefile
+*cmake_install.cmake
+
+*.swp
+*~
+
+#    CMakeCache.txt
+#    CMakeFiles/
+#    cmake_install.cmake
+#    scout_client
+#    standard_ros_compile

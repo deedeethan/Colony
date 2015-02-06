@@ -1,0 +1,21 @@
+<package>
+  <description brief="libscout">
+
+     libscout
+
+  </description>
+  <author>Ben</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/libscout</url>
+  <depend package="std_msgs"/>
+  <depend package="messages"/>
+  <depend package="roscpp"/>
+  <depend package="motors"/>
+  <depend package="encoders"/>
+  <depend package="buttons"/>
+  <depend package="linesensor"/>
+
+</package>
+
+

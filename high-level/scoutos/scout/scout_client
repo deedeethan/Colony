@@ -1,0 +1,7 @@
+#!/bin/bash
+# Runs GUI for Scout Simulations
+# Assumes all files are properly compiled
+cd ~/fuerte_workspace/scoutos/scout
+roscore > .roscore_log &
+cd ./scoutsim
+python GUI.py

@@ -1,0 +1,65 @@
+/**
+ * Copyright (c) 2011 Colony Project
+ * 
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+#include "draw_<someone>_name.h"
+
+/**
+ * In here we define the run function which specifies the behavior
+ * that the scout will run.
+ */
+void draw_<someone>_name::turnRight() {
+    Duration one_second(0.954);
+    motors->set_sides(26, -26, MOTOR_ABSOLUTE);
+    one_second.sleep();
+}
+void draw_<someone>_name::run()
+{
+  /**
+   * This loop runs as long as ROS is ok. This is necessary to make
+   * sure that our program terminates if something is wrong with ROS.
+   * And if not continues to run.
+   */
+    Duration half_second(0.5);
+    Duration one_second(1.0);
+    Duration one_point_five(1.5);
+    Duration three_second(3.0);
+    Duration weird_sleep(1.1);
+    while(ok()){
+        ROS_INFO("hallo!");
+        /* WRITE YOUR SCOUT BEHAVIOR HERE */
+
+        /**
+         * These two functions cause the world to update its
+         * state (spinOnce) and causes us to wait for incoming
+         * messages (loop_rate->sleep). These are necessary for
+         * ROS to do its job. You can think of this as ROS voodoo magic.
+         */
+
+        spinOnce();
+        loop_rate->sleep();
+        motors->set_sides(0,0,MOTOR_ABSOLUTE);
+        break;
+      }
+}
