@@ -1,0 +1,20 @@
+ScoutShield
+==
+
+- motor controllers
+- stepper driver
+- IMU
+  - accel (MMA8452Q)
+  - gyro (L3G4200D)
+  - magnometer (MAG3110)
+- rgb leds
+  - puddle lights
+- buttons
+  - reset
+  - user
+  - power switch
+- power connector
+  - reverse protection
+  - fuse
+- power indicators
+- connectors
