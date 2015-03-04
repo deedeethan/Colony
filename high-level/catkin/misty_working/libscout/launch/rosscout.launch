@@ -1,0 +1,11 @@
+<!--
+     This file is roslaunched when the scout boots. There are two Upstart
+     daemons, roscore and rosscout. Use initctl(8) to control them. rosscout
+     will automatically start or stop when roscore does.
+     -->
+
+<launch>
+  <include file="$(find scout_avr)/launch/rosserial.launch" />
+  <include file="$(find libscout)/launch/helper_nodes.launch" />
+  <!-- @todo launch a top-level libscout behavior -->
+</launch>

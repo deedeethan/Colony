@@ -1,0 +1,12 @@
+etc/ contains various configuration files that should go into /etc/ on the
+Gumstix. etc/hostname and etc/hosts have "scout1" in them, which should be
+replaced with a unique name for each scout.
+
+encoder/ contains the source code for a kernel module which must be built on
+the Gumstix. It provides /dev/encN with 0 <= N < 4. Count value are signed
+integers. Examples:
+$ cat /dev/enc0
+104522
+$ echo 0 > /dev/enc0
+$ cat /dev/enc0
+0

@@ -1,0 +1,15 @@
+<package>
+  <description brief="scout_avr">
+
+    scout_avr contains all of the code which will go on the avr, including
+    the rosserial_client implementation
+
+  </description>
+  <author>Tom Mullins</author>
+  <author>CMU Robotics Club</author>
+
+  <depend package="rosserial_client" />
+
+</package>
+
+

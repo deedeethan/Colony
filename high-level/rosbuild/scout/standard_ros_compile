@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Compiles Scout OS with ROS for standard
+# use with the GUI program
+# If this command successfully compiles ROS
+# run scout_client to open the python GUI
+
+cd ~/fuerte_workspace/scoutos/scout
+cd libscout
+cmake .
+python generate_behavior_lists.py
+rosmake
+cd ../scoutsim
+cmake .
+rosmake
+

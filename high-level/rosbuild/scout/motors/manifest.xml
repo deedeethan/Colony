@@ -1,0 +1,20 @@
+<package>
+  <description brief="motors">
+     motors
+     Module to drive the motors and provide all motor control functionality.
+  </description>
+  <author>Ben Wasserman</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://www.roboticsclub.org/redmine/projects/colonyscout/wiki</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="messages"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib"/>
+  </export>
+
+</package>
+
+

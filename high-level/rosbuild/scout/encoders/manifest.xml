@@ -1,0 +1,16 @@
+<package>
+  <description brief="encoders">
+     encoders
+     Module to provide all encoder control functionality.
+  </description>
+  <author>Lalitha</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://www.roboticsclub.org/redmine/projects/colonyscout/wiki</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="messages"/>
+
+</package>
+
+

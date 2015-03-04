@@ -1,0 +1,1 @@
+KERNEL=="ttyO0", GROUP="scout"

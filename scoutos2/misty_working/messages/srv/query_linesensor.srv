@@ -1,0 +1,3 @@
+---
+# 10-bit unsigned integers, 0 is perfectly white.
+uint32[] readings
