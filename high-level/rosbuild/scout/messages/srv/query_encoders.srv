@@ -1,6 +1,0 @@
----
-# All units are simply in encoder ticks since encoders were turned on.
-uint32 fl_distance
-uint32 fr_distance
-uint32 bl_distance
-uint32 br_distance

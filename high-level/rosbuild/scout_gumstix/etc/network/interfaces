@@ -1,8 +1,0 @@
-# interfaces(5) file used by ifup(8) and ifdown(8)
-auto lo
-iface lo inet loopback
-iface usb0 inet static
-	address 10.42.0.60
-	netmask 255.255.255.0
-	gateway 10.42.0.1
-	dns-nameservers 8.8.8.8 8.8.4.4

@@ -1,9 +1,0 @@
-<stack>
-  <description brief="scout">scout</description>
-  <author>Maintained by Ben</author>
-  <license>BSD</license>  
-  <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/scout</url>
-  <depend stack="ros" />
-
-</stack>

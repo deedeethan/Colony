@@ -1,7 +1,0 @@
-# Specify the left and right position stops for the scan.
-# Valid position stops are 0 to 23.
-int8 stop_l
-int8 stop_r
----
-# Sonar responds with an acknowledgement; true means no errors
-bool ack
