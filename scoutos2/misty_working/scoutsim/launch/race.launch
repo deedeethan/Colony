@@ -1,9 +1,0 @@
-<launch>
-
-    <node pkg="scoutsim" type="scoutsim_node" name="scoutsim" args="race"/>
-
-    <!--
-    rosservice call /spawn 6.5 1.21 0 scout1
-    -->
-
-</launch>

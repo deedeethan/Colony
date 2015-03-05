@@ -1,7 +1,0 @@
-<launch>
-
-  <node name="scoutsim" pkg="scoutsim" type="scoutsim_node" args="warehouse" />
-  <node name="scout1" pkg="libscout" type="libscout" args="scout1 4" />
-  <node name="scout2" pkg="libscout" type="libscout" args="scout2 5" launch-prefix="$(find libscout)/kickstart" />
-
-</launch>

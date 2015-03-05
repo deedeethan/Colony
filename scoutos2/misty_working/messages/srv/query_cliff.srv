@@ -1,6 +1,0 @@
-int8 units
----
-int8 front_raw
-int8 left_raw
-int8 right_raw
-int8 cliff_status

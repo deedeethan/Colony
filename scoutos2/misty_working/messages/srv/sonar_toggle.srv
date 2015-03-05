@@ -1,5 +1,0 @@
-# Set to true to turn the sonar on; false to turn off
-bool set_on
----
-# Sonar responds with an acknowledgement; true means no errors
-bool ack

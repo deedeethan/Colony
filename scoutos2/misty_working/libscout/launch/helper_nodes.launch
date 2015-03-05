@@ -1,5 +1,0 @@
-<launch>
-  <node name="motors" pkg="motors" type="motors_node" />
-  <node name="encoders" pkg="encoders" type="encoders_node" />
-  <!-- @todo add more -->
-</launch>
